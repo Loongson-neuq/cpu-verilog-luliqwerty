@@ -3,6 +3,6 @@ module judge3(          //当多数人同意时输出1
     output out
 );
     
-    assign out = // 超过两个输入1
+    assign out = (a & b) | (b & c) | (a & b); // 超过两个输入1
     
 endmodule
